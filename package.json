@@ -10,7 +10,8 @@
     "mongoose": "^5.11.15"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "test": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
