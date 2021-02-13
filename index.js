@@ -21,4 +21,4 @@ app.post("/users", async (req, res) => {
   res.json(createdUser);
 });
 
-app.listen(4000);
+app.listen(process.env.PORT || 4000);
