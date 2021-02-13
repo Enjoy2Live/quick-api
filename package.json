@@ -10,7 +10,7 @@
     "mongoose": "^5.11.15"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js --port $PORT",
     "test": "nodemon index.js"
   },
   "author": "",
